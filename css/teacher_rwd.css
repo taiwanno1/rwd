@@ -1,0 +1,32 @@
+.container {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.feature{
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+
+@media (min-width: 768px) {
+
+    body{
+        font-size: 2rem;
+    }
+    .container {
+        width: 750px;
+    }
+
+    .feature {
+        float: left;
+        width: 30%;
+        margin-right: 2%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 1000px;
+    }
+}

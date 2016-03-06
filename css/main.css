@@ -1,0 +1,232 @@
+/***********************
+GENERAL
+************************/
+ul{
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title{
+    text-transform: uppercase;
+}
+
+.subtitle{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #1ED3A6 ;
+}
+
+.text {
+    font-size:14px;
+    line-height: 2;
+    color: #A9A9A9;
+}
+
+
+/***********************
+HEADER
+************************/
+
+
+
+#logo {
+    float: left;
+    line-height: 90px;
+    margin-left: 60px;
+}
+nav{
+    float: right;
+}
+nav a {
+    padding: 0 15px;
+}
+nav a:hover {
+    color: #1ED3A6;
+    font-size: 1.1em;
+}
+nav ul {
+    margin-right: 60px;
+}
+nav li{
+    float: left;
+    line-height: 90px;
+}
+nav .active a {
+    color: #1ED3A6;
+}
+
+
+/***********************
+TOP
+************************/
+#top {
+    background-image: url(http://lorempixel.com/1800/1000/);
+    background-position: center;
+    color: white;
+    text-align: center;
+
+}
+
+#top a {
+    color: white;
+    text-transform: capitalize;
+}
+
+#top a:hover {
+    color: #1ED3A6;
+    font-size: 1.1em;
+
+}
+
+#top .wrapper{
+    padding: 100px 0;
+}
+
+#top h1{
+    text-transform: uppercase;
+}
+
+/***********************
+ABOUT
+************************/
+.about{
+    margin:160px 0;
+}
+
+.us {
+    margin-left: 60px;
+    float: left;
+    width: 45%
+}
+
+.goalpic {
+    margin-right: 60px;
+    float: right;
+    width: 45%;
+
+}
+
+.about h3{
+    width: 350px;
+}
+
+
+
+/***********************
+VIDEO
+************************/
+.video{
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+/***********************
+PROUD
+************************/
+#proud {
+    margin:125px auto;
+    text-align: center;
+}
+
+#proud img {
+    width: 30%;
+    margin:0 auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/***********************
+PURCHASE
+************************/
+#purchase {
+    background-color: #DCDCDC;
+    margin: 100px 0;
+    padding: 150px 0;
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: #1ED3A6;
+    font-size: 20px;
+    padding: 15px 40px;
+}
+
+/***********************
+CONTACT
+************************/
+#contact{
+margin-bottom: 150px;
+}
+.inform {
+    float: left;
+    width:33%;
+    text-align: left;
+
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    float: right;
+    text-align: right;
+    width: 200px;
+
+}
+
+/***********************
+FOOTER
+************************/
+footer p {
+    float: left;
+}
+
+footer ul {
+    float: right;
+}
+
+footer li{
+    float: left;
+    padding: 5px;
+}
+
+footer a:hover {
+    color: #1ED3A6;
+}
+
+
+
+
+
+
+
+
